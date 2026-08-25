@@ -53,4 +53,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
 
     implementation("com.airbnb.android:lottie-compose:6.7.1")
+
+    // Jetpack Compose integration
+    implementation("androidx.navigation:navigation-compose:2.9.8")
 }
