@@ -43,7 +43,7 @@ fun SplashScreen(navHostController: NavHostController) {
             animationSpec = tween(3000)
         )
 
-        delay(5000)
+        delay(2500)
         navHostController.popBackStack()
         navHostController.navigate("OnBoarding")
 
